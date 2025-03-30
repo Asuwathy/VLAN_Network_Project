@@ -28,6 +28,10 @@ This project demonstrates the configuration of VLANs (Virtual Local Area Network
 3️⃣ Open the `.pkt` file in Cisco Packet Tracer.  
 4️⃣ Run Commands (Use CLI to verify VLANs and routing).  
 
+
+📂 Download the Project File
+You can download the Cisco Packet Tracer project file from Google Drive(https://drive.google.com/file/d/1Qsb8yVpVoc97U4XnQGt5C9ibRTsp_BiC/view?usp=sharing).
+
 📜 Commands Used
 1.Router-on-a-Stick Configuration
 Assuming Router Interface: GigabitEthernet0/0 connected to the switch:
