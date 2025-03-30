@@ -44,20 +44,21 @@ Assuming Router Interface: GigabitEthernet0/0 connected to the switch:
 configure terminal
 
 # Create subinterfaces for VLANs
+#For vlan 10
  int gig0/0.10
  
  encapsulation dot1Q 10
  
  ip address 192.168.1.1 255.255.255.192  # First usable IP in VLAN 10
 
-
+#For vlan 20
  int gig0/0.20
  
  encapsulation dot1Q 20
  
  ip address 192.168.1.65 255.255.255.192  # First usable IP in VLAN 20
 
-
+#For vlan 30
  int gig0/0.30
  
  encapsulation dot1Q 30
@@ -65,8 +66,7 @@ configure terminal
  ip address 192.168.1.129 255.255.255.192  # First usable IP in VLAN 30
 
 
-# Enable interfaces
-  no shutdown
+
 
 # Save configuration
   end
