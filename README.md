@@ -1,3 +1,34 @@
+🖧 VLAN and Inter-VLAN Routing Project (Cisco Packet Tracer)
+
+📌 Project Overview
+This project demonstrates the configuration of VLANs (Virtual Local Area Networks) and Inter-VLAN Routing using Cisco Packet Tracer. The network includes multiple VLANs, a router, a switch, and various end devices.
+
+⚡ Features
+✔️ Three VLANs (Each with a PC, Printer, and Access Point)  
+✔️ Router-on-a-stick Configuration for Inter-VLAN Routing  
+✔️ VLAN Trunking and Proper Subnetting  
+✔️ Successful VLAN Communication via Router  
+
+🛠️ Technologies Used
+- Cisco Packet Tracer  
+- VLAN Configuration (Switchport Mode Access & Trunk)  
+- Router Sub-Interfaces for Inter-VLAN Routing  
+- IP Addressing & Subnetting  
+
+🔧 Network Setup
+- VLAN 10: PC1, Printer1, AP1  
+- VLAN 20: PC2, Printer2, AP2  
+- VLAN 30: PC3, Printer3, AP3  
+- Router: Configured for Inter-VLAN Routing  
+- Switch: VLAN Assignments & Trunk Ports  
+
+📝 How to Use the Project
+1️⃣ Download Cisco Packet Tracer if you don’t have it.  
+2️⃣ Clone or Download this repository.  
+3️⃣ Open the `.pkt` file in Cisco Packet Tracer.  
+4️⃣ Run Commands (Use CLI to verify VLANs and routing).  
+
+📜 Commands Used
 1.Router-on-a-Stick Configuration
 Assuming Router Interface: GigabitEthernet0/0 connected to the switch:
 
